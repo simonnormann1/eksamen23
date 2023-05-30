@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Simon Normann</title>
+    <!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Jost&amp;" rel="stylesheet">   
+</head>
+<body>
+    <!-- Navbar/Link på knapper-->
+<nav class="navbar">
+<a href="#hjem" class="logo">
+    <img src="content/navbar/snlogo.png" alt="Simon">
+</a>
+<a href="#hjem">Hjem</a>
+<a href="#portfolio">Portfolio</a>
+<a href="kontakt.html">Kontakt</a>
+</nav>
+
+<!-- Om mig (div id = Link på navbar) -->
+
+<div id="hjem">
+  <div class="tekst">
+   <h1>
+    Jeg er Simon Normann
+   </h1>
+
+   <p> 
+    Mit navn er Simon, jeg er en fyr på 22 med en stor interesse inden for grafisk design, og billed-/video produktion. Jeg har siden februar 2023 studeret multimediedesign på UCL i Odense, og er stadig igang. Her på siden kan du se eksempler på de kompetencer jeg har erfaret, både igennem uddannelsen, men også i privaten. Siden giver et indblik i hvem jeg er som person, og hvordan jeg kan hjælpe dig og/eller dit firma med at få fremskabt netop det produkt i leder efter.
+   </p>
+  </div>
+
+  <img src="content/simon.jpg" alt="Portræt af dreng" class="simpic">
+   <div class="knap"></div>
+  <a href="kontakt.html" class="ctaknap">Kontakt mig her!</a>
+</div>
+   
+<!-- Portfolio -->
+<div id="portfolio">
+  <h2>
+    Portfolio
+  </h2>
+ <!-- Videoer-->
+  <div class="tallerken">
+   <video src="content/portfolio/tallerken.mp4" controls autoplay>
+   </video>
+  </div>
+
+  <div class="movingart">
+   <video src="content/portfolio/movingart.mp4" controls autoplay>
+   </video>
+  </div>
+  <!-- Billeder -->
+ 
+  <img src="content/portfolio/cola.jpg" alt="Foto af coca-cola" class="cola">
+  
+  <img src="content/portfolio/blomst.jpg" alt="Foto af blomst" class="blomst">
+
+  <img src="content/portfolio/silverm.jpg" alt="Dating app for mennesker over 60 år" class="app">
+  
+  <img src="content/portfolio/folder.png" alt="Folder med Tallerken og titlen Tallerkendesigneren" class="folder">
+</div>
+
+<!-- Farveskift for baggrund-->
+<script>
+    window.addEventListener('scroll', function() {
+        var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollPosition > 800) {
+            document.body.classList.add('changed');
+        } else {
+            document.body.classList.remove('changed');
+        }
+    });
+</script>
+</body>
+</html>
