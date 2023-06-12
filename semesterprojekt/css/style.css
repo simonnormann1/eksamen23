@@ -16,7 +16,7 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 position: fixed;
 top: 0;
 left: 0;
-width: 100%;
+width: 100vw;
 z-index: 999;
 background-color: #FFFFFF;
 
@@ -57,8 +57,8 @@ h1 {
     font-family: Jost, sans-serif;
     font-size: 3vw;
     color: #707070;
-    margin-top: 5%;
-    margin-left: 5.7%;
+    margin-top: 5vw;
+    margin-left: 5.7vw;
     position: absolute;
 }
 /* Tekstfelt ved hjemmeskærm (om mig)*/
@@ -66,13 +66,13 @@ p {
     font-family: Jost, sans-serif;
     font-size: 1.5vw;
     color: #707070;
-    margin-left: 5%;
+    margin-left: 5vw;
     padding: 10px;
     border-radius: 5px;
-    max-width: 50%;
+    max-width: 50vw;
     float: left;
     position: absolute;
-    margin-top: 10%;
+    margin-top: 10vw;
     
 }
 
@@ -105,12 +105,12 @@ p {
   font-family: Jost, sans-serif;
   font-size: 1.2vw;
   cursor: pointer;
-  margin-top: 30%;
+  margin-top: 30vw;
   border-radius: 20px;
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
   animation: ph-enter 1s;
   position: absolute;
-  left: 25%;
+  left: 25vw;
 }
 
 
@@ -126,13 +126,13 @@ p {
 
   
   .simpic {
-    right: 5%;
+    right: 5vw;
     animation: pic-enter 1s;
-    width: 30%;
-    border-radius: 4%;
+    width: 30vw;
+    border-radius: 4vw;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
     position:absolute;
-    margin-top: 5%;
+    margin-top: 5vw;
   }
 
 
@@ -151,8 +151,8 @@ p {
     font-family: Jost, sans-serif;
     font-size: 3vw;
     color: #FFFFFF;
-    margin-top: 55%;
-    margin-left: 5%;
+    margin-top: 55vw;
+    margin-left: 5vw;
   }
 
   video {
@@ -165,7 +165,7 @@ p {
     left: 150px;
     width: 35vw;
     margin-top: 2%;
-    left: 5%;
+    left: 5vw;
   
   }
 
@@ -173,51 +173,51 @@ p {
     position: absolute;
     right: 150px;
     width: 35vw;
-    margin-top: 2%;
-    right: 5%;
+    margin-top: 2vw;
+    right: 5vw;
   }
 
 
 /* Billeder i portfolio */
   .blomst {
-    width: 35%;
+    width: 35vw;
     height: auto;
     border-radius: 4%;
-    margin-top: 30%;
+    margin-top: 30vw;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
-    left: 5%;
+    left: 5vw;
   position: absolute;
   }
 
   .cola {
-   width: 35%;
+   width: 35vw;
    height: auto;
    border-radius: 4%;
-   margin-top: 30%;
+   margin-top: 30vw;
    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
    position: absolute;
-   right: 5%;
+   right: 5vw;
   }
 
   .folder {
-   width: 35%;
+   width: 35vw;
    height: auto;
    border-radius: 4%;
-   margin-top: 60%;
+   margin-top: 60vw;
    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
    position: absolute;
-    left: 5%;
+    left: 5vw;
 
   }
 
   .app {
-   width: 35%;
+   width: 35vw;
    height: auto;
    border-radius: 4%;
-   margin-top: 60%;
+   margin-top: 60vw;
    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
    position: absolute;
-   right: 5%;
+   right: 5vw;
   }
 
   .kontaktlogo {
